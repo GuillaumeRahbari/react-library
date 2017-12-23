@@ -1,0 +1,16 @@
+{
+  "bundleSizes": {
+    "dist/compilation.umd.js": {
+      "size": 116,
+      "gzip": 104
+    },
+    "dist/compilation.cjs.js": {
+      "size": 52,
+      "gzip": 67
+    },
+    "dist/compilation.es.js": {
+      "size": 52,
+      "gzip": 67
+    }
+  }
+}
