@@ -1,5 +1,5 @@
-const gzip = require("gzip-size");
-const Stats = require("./stats");
+const gzip = require('gzip-size');
+const Stats = require('./stats');
 
 module.exports = function sizes() {
   return {
@@ -9,8 +9,8 @@ module.exports = function sizes() {
 
       Stats.currentBuildResults.bundleSizes[bundle.file] = {
         size,
-        gzip: gzipSize
+        gzip: gzipSize,
       };
-    }
+    },
   };
 };
