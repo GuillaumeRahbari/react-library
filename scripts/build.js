@@ -16,7 +16,6 @@ async function build(rollupResult, options) {
 }
 
 function handleRollupError(error) {
-  loggedErrors.add(error);
   if (!error.code) {
     console.error(error);
     return;
